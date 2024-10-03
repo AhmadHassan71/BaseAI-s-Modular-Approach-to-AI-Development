@@ -22,52 +22,53 @@ BaseAI allows developers to create flexible and scalable AI systems by composing
 
 ## Getting Started
 
-To get started with this example, you'll need to clone the repo and install the dependencies
+To get started with this example, you'll need to clone the repo and install the dependencies.
 
 ### Prerequisites
 
 - Node.js (v14 or later)
 - npm (Node Package Manager)
-``
 
 ## Usage
 
 1. **Clone the repo**:
 
-   ```bash
-   git clone https://github.com/ahmadhassan71/BaseAI-s-Modular-Approach-to-AI-Development.git
-   ```
+    ```bash
+    git clone https://github.com/ahmadhassan71/BaseAI-s-Modular-Approach-to-AI-Development.git
+    ```
 
 2. **Installation**:
-To install BaseAI in your project, run:
+To install BaseAI and other dependencies in your project, run:
 
-    ```bash
-    npm install baseai
-    ```
+     ```bash
+     npm install
+     ```
 
 3. **Open the Application**:
 To run the application:
 
-    ```bash
-    npm run dev
-    ```
+     ```bash
+     npm run dev
+     ```
 
 4. **Running the Code**
 Environment Setup: Make sure you have your .env file set up with your API key:
 
-    ```makefile
-    OPENAI_API_KEY="your-open-ai-key"
-    ```
+     ```makefile
+     OPENAI_API_KEY="your-open-ai-key"
+     URL="yoururl.com"
+     ```
 
 5. **Run BaseAI Server:**
 Start the BaseAI server:
 
-    ```bash
-    npx baseai@latest pipe
-    ```
+     ```bash
+     npx baseai@latest pipe
+     ```
 
 6. **Run the code:**
 
-    ```bash
-    npx tsx index.ts
-    ```
+     ```bash
+     npx tsx index.ts
+     ```
+
