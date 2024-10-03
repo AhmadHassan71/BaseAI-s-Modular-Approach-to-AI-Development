@@ -52,4 +52,22 @@ To run the application:
     npm run dev
     ```
 
----
+4. **Running the Code**
+Environment Setup: Make sure you have your .env file set up with your API key:
+
+    ```makefile
+    OPENAI_API_KEY="your-open-ai-key"
+    ```
+
+5. **Run BaseAI Server:**
+Start the BaseAI server:
+
+    ```bash
+    npx baseai@latest pipe
+    ```
+
+6. **Run the code:**
+
+    ```bash
+    npx tsx index.ts
+    ```
