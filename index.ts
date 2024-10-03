@@ -6,7 +6,7 @@ async function run() {
   const pipe = combinedPipe();
 
   try {
-    const result = await pipe.run(url);
+    const result = await pipe.run(url!!);
     console.log('Classification Result:', result);
   } catch (error) {
     console.error('Error:', error.message);
