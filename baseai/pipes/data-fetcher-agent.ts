@@ -1,4 +1,4 @@
-// baseai/pipes/data-fetcher.pipe.ts
+// baseai/pipes/data-fetcher-agent.ts
 import { PipeI } from '@baseai/core';
 import axios from 'axios';
 
