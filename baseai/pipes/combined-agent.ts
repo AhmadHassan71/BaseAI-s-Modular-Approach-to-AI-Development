@@ -1,4 +1,4 @@
-// baseai/pipes/combined.pipe.ts
+// baseai/pipes/combined-agent.ts
 import { Pipe } from '@baseai/core';
 import dataFetcherPipe from './data-fetcher-agent.ts';
 import textClassifierPipe from './text-classifier-agent.ts';
