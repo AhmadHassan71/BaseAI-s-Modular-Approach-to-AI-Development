@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@baseai/core": "^0.9.3"
+  }
+}
